@@ -3,7 +3,8 @@ package polymorphismtest01;
 public class polymorphismtest {
     public static void main(String[] args) {
         //创建对象(多态方式)
-        // Fu f=new Zi();
+        //1.父类指向子类
+        //2.接口指向实现类
         Animal a=new Dog();
         //调用成员变量:编译看左边,运行也看左边
         //编译看左边:Javac编译代码的时候,会看左边的父亲有没有这个变量,如果有编译成功,没有则编译失败
