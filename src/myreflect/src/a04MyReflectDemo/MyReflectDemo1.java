@@ -1,4 +1,4 @@
-package a03MyReflectDemo1.a04MyReflectDemo1;
+package a04MyReflectDemo;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
@@ -7,7 +7,7 @@ import java.lang.reflect.Parameter;
 public class MyReflectDemo1 {
     public static void main(String[] args) throws ClassNotFoundException, NoSuchMethodException, InvocationTargetException, IllegalAccessException {
         //获取class对象
-        Class clazz = Class.forName("a03MyReflectDemo1.a04MyReflectDemo1.Student");
+        Class clazz = Class.forName("a04MyReflectDemo.Student");
         //获取成员方法的对象  getMethods获取所有成员方法的对象(包含父类里面所有的公共方法)
         Method[] methods = clazz.getMethods();
         for (Method method : methods) {

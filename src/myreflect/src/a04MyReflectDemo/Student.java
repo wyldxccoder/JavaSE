@@ -1,4 +1,4 @@
-package a03MyReflectDemo1.a04MyReflectDemo1;
+package a04MyReflectDemo;
 
 public class Student {
     private String name;
