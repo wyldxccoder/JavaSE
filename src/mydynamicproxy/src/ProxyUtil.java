@@ -4,11 +4,6 @@ import java.lang.reflect.Proxy;
 
 public class ProxyUtil {
 
-
-
-
-
-
 //静态方法
     public static Star createProxy(BigStar bigStar){
         //Proxy.newProxyInstance 产生代理对象的方法
