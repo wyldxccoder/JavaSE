@@ -35,6 +35,7 @@ public class MyReflectDemo1 {
         //临时取消权限校验
        age.setAccessible(true);
        Object value= age.get(s);
+        //获取对象里面成员变量的值
         System.out.println(value);
         System.out.println("------------------");
         //修改对象里面成员变量的值

@@ -55,7 +55,7 @@ public class Student {
         return "奥里给";
     }
     public String eat(String someting,int sum)throws IllegalAccessError,AbstractMethodError,SecurityException {
-        System.out.println("在吃" + someting);
+        System.out.println("在吃" + sum+someting);
         return "奥里给";
     }
 }

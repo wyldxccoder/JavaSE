@@ -1,8 +1,6 @@
 public class BigStar implements Star {
     private String name;
 
-    public BigStar() {
-    }
 
     public BigStar(String name) {
         this.name = name;

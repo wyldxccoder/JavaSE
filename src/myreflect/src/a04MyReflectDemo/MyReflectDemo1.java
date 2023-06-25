@@ -46,7 +46,8 @@ public class MyReflectDemo1 {
         System.out.println("-----------------");
         //方法运行
         //method类中用于创建对象的方法
-        //object invoke(object obj,object... args):运行方法
+
+        //object invoke(object obj,object... args)   运行方法
         //参数一:用obj对象调用方法
         //参数二:调用方法的传递参数(如果没有就不写)
         //返回值:方法的返回值 (如果没有就不写)
